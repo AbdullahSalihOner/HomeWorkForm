@@ -36,6 +36,7 @@ namespace HomeWorkForm
                 string strNumber = inputxtxtbox.Text;
                 int num = int.Parse(strNumber);
 
+                // 0 dan küçük olma durumu ve boþ data durmu için 
                 if (num < 0)
                 {
                     ErrorLabel.Visible = true;
@@ -116,7 +117,7 @@ namespace HomeWorkForm
                 string strNumber = inputxtxtbox.Text;
                 int num = int.Parse(strNumber);
 
-
+                // 0 dan küçük olma durumu ve boþ data durmu için 
                 if (num < 0)
                 {
                     ErrorLabel.Visible = true;
@@ -174,6 +175,7 @@ namespace HomeWorkForm
                 string strNumber = inputxtxtbox.Text;
                 int num = int.Parse(strNumber);
 
+                // 0 dan küçük olma durumu ve boþ data durmu için 
                 if (num < 0)
                 {
                     ErrorLabel.Visible = true;
@@ -240,7 +242,7 @@ namespace HomeWorkForm
                 string strNumber = inputxtxtbox.Text;
                 int num = int.Parse(strNumber);
 
-
+                // 0 dan küçük olma durumu ve boþ data durmu için 
                 if (num < 0)
                 {
                     ErrorLabel.Visible = true;
